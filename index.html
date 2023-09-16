@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Showroom</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <style>
+        body {
+            background-image: url("coll.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            background-position: center;
+        }
+
+        .navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: black;
+}
+
+/* Add responsivenevertically */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+        /* New Division Styles */
+        .welcome-section {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+            color: white;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <!-- Welcome Section -->
+    <div class="welcome-section">
+        <div class="navbar">
+            <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+             <a href="#"><i class="fas fa-info-circle"></i> About Us </a>
+            <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+            <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+          </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Lamborghini Car ShowRoom</h1>
+                    <h2>Forza Italia</h2>
+                    <p>Discover the greatest Lamborghini collection and extravagant rides on our website.</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search for a car..." aria-label="Search" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                           <a href="https://www.lamborghini.com/en-en/models/huracan/huracan-sterrato"> <button class="btn btn-primary" type="button">Search</button> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Add images -->
+                </div>
+            </div>
+        </div>
+    </div>
+        </header>
+      
+            <div class="welcome-section">
+            <h2>Featured cars</h2>
+            <div class="row">
+                <div class="col-1g-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="cent.jpg" class="card-img-top" alt="Car Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Centenario Super Sport</h5>
+                            <p class="card-text"> Designed for unbridled performance, the Centenario Roadster is based on a carbon-fiber monocoque and body. </p>
+                            <a href="#" class="btn btn-primary">View Details </a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-1g-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="hurr.jpg" class="card-img-top" alt="Car Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Huracan</h5>
+                            <p class="card-text">Sculptured and sensual, the Huracán's design is based on the spiky hexagonal forms of the carbon atom, while the seamless roof profile is an unmistakable mark of the Lamborghini DNA. </p>
+                            <a href="#" class="btn btn-primary">View Details </a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-1g-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="urus.webp" class="card-img-top" alt="Car Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Urus</h5>
+                            <p class="card-text">Powered by Lamborghini's 4.0-liter twin-turbo V8 engine, the Urus is all about a performance mindset that brings together fun-to-drive and astounding vehicle capabilities.  </p>
+                            <a href="#" class="btn btn-primary">View Details </a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-1g-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="av.jpg".jpg class="card-img-top" alt="Car Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Aventador</h5>
+                            <p class="card-text">The Aventador powertrain features a mid-mounted naturally aspirated 6.5-liter V-12 that develops 769 horsepower. </p>
+                            <a href="#" class="btn btn-primary">View Details </a>
+                        </div> 
+                    </div>
+                </div>
+                
+            </div>
+      
+        </section>
+
+</body>
+</html>
